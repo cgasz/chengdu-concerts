@@ -1,5 +1,5 @@
 /* 成都演唱会工作台 Service Worker */
-const VERSION = 'cd-concerts-v1';
+const VERSION = 'cd-concerts-v2';
 const CORE = [
   './',
   'index.html',
