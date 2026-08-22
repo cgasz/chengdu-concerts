@@ -1,0 +1,17 @@
+{
+  "name": "成都演唱会工作台",
+  "short_name": "成都演出",
+  "description": "成都市演唱会信息汇总工作台：列表、日历、开票倒计时、场馆、购票指南",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#17171C",
+  "theme_color": "#17171C",
+  "lang": "zh-CN",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
