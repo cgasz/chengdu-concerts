@@ -373,27 +373,62 @@ function router() {
   view.innerHTML = '<div class="empty">😵 页面不存在 <a href="#/concerts">← 返回首页</a></div>';
 }
 
+/* ---------- 数据加载与自动更新 ---------- */
+async function loadData() {
+  const [c, v, a, g, s] = await Promise.all([
+    fetch('data/concerts.json?t=' + Date.now()).then((r) => r.json()),
+    fetch('data/venues.json?t=' + Date.now()).then((r) => r.json()),
+    fetch('data/announcements.json?t=' + Date.now()).then((r) => r.json()),
+    fetch('data/guides.json?t=' + Date.now()).then((r) => r.json()),
+    fetch('data/site.json?t=' + Date.now()).then((r) => r.json())
+  ]);
+  return { concerts: c.concerts, venues: v.venues, announcements: a.announcements, guides: g, site: s };
+}
+const dataSnapshot = () => JSON.stringify([DATA.concerts, DATA.announcements, DATA.site && DATA.site.updatedAt]);
+let _snap = '';
+let _checking = false;
+function toast(msg) {
+  let t = $('#toast');
+  if (!t) { t = document.createElement('div'); t.id = 'toast'; document.body.appendChild(t); }
+  t.textContent = msg;
+  t.classList.add('show');
+  clearTimeout(t._timer);
+  t._timer = setTimeout(() => t.classList.remove('show'), 3500);
+}
+async function checkForUpdates() {
+  if (_checking) return;
+  _checking = true;
+  try {
+    const fresh = await loadData();
+    const snap = JSON.stringify([fresh.concerts, fresh.announcements, fresh.site && fresh.site.updatedAt]);
+    if (snap !== _snap) {
+      DATA.concerts = fresh.concerts; DATA.venues = fresh.venues; DATA.announcements = fresh.announcements; DATA.guides = fresh.guides; DATA.site = fresh.site;
+      _snap = snap;
+      $('#side-updated').textContent = fresh.site.updatedAt;
+      toast('🆕 数据已自动更新（' + fresh.site.updatedAt + '）');
+      router();
+    }
+  } catch (e) { /* 网络异常时静默跳过，下轮再试 */ } finally { _checking = false; }
+}
+function startAutoRefresh() { setInterval(checkForUpdates, 10 * 60 * 1000); }
+
 /* ---------- 启动 ---------- */
 async function boot() {
   $('#nav').innerHTML = NAV.map((n) =>
     '<a href="#/' + n[2] + '" data-route="' + n[2] + '" title="' + n[3] + '"><span class="nav-ico">' + n[0] + '</span><span class="nav-lbl">' + n[1] + '</span></a>').join('');
   try {
-    const [c, v, a, g, s] = await Promise.all([
-      fetch('data/concerts.json').then((r) => r.json()),
-      fetch('data/venues.json').then((r) => r.json()),
-      fetch('data/announcements.json').then((r) => r.json()),
-      fetch('data/guides.json').then((r) => r.json()),
-      fetch('data/site.json').then((r) => r.json())
-    ]);
-    DATA.concerts = c.concerts; DATA.venues = v.venues; DATA.announcements = a.announcements; DATA.guides = g; DATA.site = s;
-    $('#side-updated').textContent = s.updatedAt;
-    document.title = '成都演唱会工作台 · 更新至 ' + s.updatedAt;
+    const fresh = await loadData();
+    DATA.concerts = fresh.concerts; DATA.venues = fresh.venues; DATA.announcements = fresh.announcements; DATA.guides = fresh.guides; DATA.site = fresh.site;
+    _snap = dataSnapshot();
+    $('#side-updated').textContent = fresh.site.updatedAt;
+    document.title = '成都演唱会工作台 · 更新至 ' + fresh.site.updatedAt;
   } catch (e) {
     view.innerHTML = '<div class="empty">😵 数据加载失败，请检查网络后刷新。<br><span style="font-size:12px">' + esc(e.message) + '</span></div>';
     return;
   }
   window.addEventListener('hashchange', router);
   router();
+  startAutoRefresh();
   if ('serviceWorker' in navigator) {
     try { navigator.serviceWorker.register('sw.js'); } catch (e) {}
   }
