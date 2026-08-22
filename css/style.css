@@ -104,6 +104,10 @@ a:hover{text-decoration:underline}
 .detail-box h3{font-size:14px;color:var(--muted);margin-bottom:8px}
 .detail-box .val{font-size:15px;font-weight:600}
 
+/* ===== 提示气泡 ===== */
+#toast{position:fixed;bottom:24px;right:24px;background:var(--card2);border:1px solid var(--accent);color:var(--text);padding:10px 16px;border-radius:10px;font-size:13px;opacity:0;transform:translateY(8px);transition:opacity .3s,transform .3s;z-index:99;pointer-events:none;box-shadow:0 6px 20px rgba(0,0,0,.4)}
+#toast.show{opacity:1;transform:none}
+
 /* ===== 底部 & 响应式 ===== */
 .foot-note{color:var(--muted);font-size:12px;border-top:1px solid var(--line);margin-top:40px;padding-top:14px;line-height:1.8}
 @media (max-width:720px){
