@@ -1,0 +1,358 @@
+{
+  "concerts": [
+    {
+      "id": "zhangshaohan-0822",
+      "artist": "张韶涵",
+      "icon": "🎤",
+      "title": "「玩家」巡回演唱会成都站",
+      "category": "concert",
+      "dates": ["2026-08-22", "2026-08-23"],
+      "startTime": "19:00",
+      "venueId": "donganhu-stadium",
+      "priceRange": "票价以官方公布为准",
+      "onSaleAt": null,
+      "buyPlatforms": ["大麦", "猫眼"],
+      "sources": [
+        { "name": "看度新闻（成都广播电视台）", "url": "https://www.cditv.cn/show/4813-2592357.html" },
+        { "name": "成都商报（川观新闻）", "url": "https://cbgc.scol.com.cn/news/7870030" }
+      ],
+      "note": "8月22日、23日连开两场，东安湖主体育场。",
+      "verified": true
+    },
+    {
+      "id": "huangling-0822",
+      "artist": "黄龄",
+      "icon": "🎶",
+      "title": "「调儿啷铛」巡回音乐会成都站",
+      "category": "concert",
+      "dates": ["2026-08-22"],
+      "startTime": "19:30",
+      "venueId": "huawei-528",
+      "priceRange": "¥380-980",
+      "onSaleAt": null,
+      "buyPlatforms": ["大麦", "秀动"],
+      "sources": [
+        { "name": "东方演出网（成都2026演唱会时间表）", "url": "https://www.df962388.com/news/427781.html" }
+      ],
+      "note": "华熙LIVE·528空间，小型专场。",
+      "verified": true
+    },
+    {
+      "id": "wangyiheng-0827",
+      "artist": "王一珩",
+      "icon": "🌱",
+      "title": "New Jazz Farmer 生日音乐会",
+      "category": "concert",
+      "dates": ["2026-08-27"],
+      "startTime": "19:00",
+      "venueId": "gaoxin-sports",
+      "priceRange": "¥380-1380",
+      "onSaleAt": null,
+      "buyPlatforms": ["大麦", "猫眼", "秀动"],
+      "sources": [
+        { "name": "掌上金牛（网易号）", "url": "https://www.163.com/dy/article/L4P0LM980514FD4Q.html" }
+      ],
+      "note": "8月19日19:00已再次开售。",
+      "verified": true
+    },
+    {
+      "id": "shigetian-0828",
+      "artist": "十个勤天",
+      "icon": "🌾",
+      "title": "「贰零贰贰」巡回演唱会成都站（收官场）",
+      "category": "concert",
+      "dates": ["2026-08-28", "2026-08-29", "2026-08-30"],
+      "startTime": "19:00",
+      "venueId": "donganhu-arena",
+      "priceRange": "¥388 / 688 / 988 / 1288 / 1588 / 1888",
+      "onSaleAt": "2026-08-20T20:18",
+      "buyPlatforms": ["大麦", "猫眼", "抖音生活服务", "飞猪旅行"],
+      "sources": [
+        { "name": "掌上金牛（网易号）", "url": "https://www.163.com/dy/article/L4P0LM980514FD4Q.html" },
+        { "name": "看度新闻（成都广播电视台）", "url": "https://www.cditv.cn/show/4813-2592357.html" }
+      ],
+      "note": "大麦VIP优先购8月20日20:08-20:15，正式开售8月20日20:18（已开售）。",
+      "verified": true
+    },
+    {
+      "id": "wangheye-0829",
+      "artist": "王赫野",
+      "icon": "🌬️",
+      "title": "《WINDY》巡回演唱会成都站",
+      "category": "concert",
+      "dates": ["2026-08-29"],
+      "startTime": "18:00",
+      "venueId": "wuliangye-arena",
+      "priceRange": "看台¥380/680/880 · 内场¥1080/1280",
+      "onSaleAt": null,
+      "buyPlatforms": ["大麦", "猫眼", "携程"],
+      "sources": [
+        { "name": "掌上金牛（网易号）", "url": "https://www.163.com/dy/article/L4P0LM980514FD4Q.html" },
+        { "name": "成都商报（川观新闻）", "url": "https://cbgc.scol.com.cn/news/7870030" }
+      ],
+      "note": "8月20日18:22 再次开售。",
+      "verified": true
+    },
+    {
+      "id": "luoyunxi-0905",
+      "artist": "罗云熙",
+      "icon": "✨",
+      "title": "「熙界无限剧场」巡回演唱会成都站",
+      "category": "concert",
+      "dates": ["2026-09-05"],
+      "startTime": "19:00",
+      "venueId": "wuliangye-arena",
+      "priceRange": "看台¥380/680/980/1180/1380 · 内场¥1580",
+      "onSaleAt": "2026-08-21T12:27",
+      "buyPlatforms": ["大麦", "猫眼"],
+      "sources": [
+        { "name": "成都商报（川观新闻）", "url": "https://cbgc.scol.com.cn/news/7870030" },
+        { "name": "掌上金牛（网易号）", "url": "https://www.163.com/dy/article/L4P0LM980514FD4Q.html" }
+      ],
+      "note": "8月21日12:17 大麦会员优先购，12:27 全平台预售（已开票）。",
+      "verified": true
+    },
+    {
+      "id": "liuzhe-0905",
+      "artist": "六哲",
+      "icon": "🎸",
+      "title": "《时光哲旅》巡回演唱会成都站",
+      "category": "concert",
+      "dates": ["2026-09-05"],
+      "startTime": "19:00",
+      "venueId": "sichuan-gym",
+      "priceRange": "待公布",
+      "onSaleAt": null,
+      "buyPlatforms": ["大麦", "猫眼"],
+      "sources": [
+        { "name": "东方演出网（成都2026演唱会时间表）", "url": "https://www.df962388.com/news/427781.html" }
+      ],
+      "note": "四川省体育馆。",
+      "verified": true
+    },
+    {
+      "id": "lironghao-0905",
+      "artist": "李荣浩",
+      "icon": "🐴",
+      "title": "「黑马」世界巡回演唱会成都站",
+      "category": "concert",
+      "dates": ["2026-09-05", "2026-09-06"],
+      "startTime": "19:00",
+      "venueId": "donganhu-stadium",
+      "priceRange": "票价以官方公布为准",
+      "onSaleAt": null,
+      "buyPlatforms": ["大麦", "猫眼"],
+      "sources": [
+        { "name": "看度新闻（成都广播电视台）", "url": "https://www.cditv.cn/show/4813-2592357.html" }
+      ],
+      "note": "9月5日、6日两场，东安湖主体育场。",
+      "verified": true
+    },
+    {
+      "id": "aizhiheng-0912",
+      "artist": "艾志恒Asen",
+      "icon": "🌧️",
+      "title": "「在雨后醒来」2026巡回演唱会成都站",
+      "category": "concert",
+      "dates": ["2026-09-12"],
+      "startTime": "19:00",
+      "venueId": "donganhu-arena",
+      "priceRange": "内场¥980 · 看台¥780/580/380",
+      "onSaleAt": "2026-08-25T13:00",
+      "buyPlatforms": ["大麦", "纷玩岛", "猫眼", "壹票达"],
+      "sources": [
+        { "name": "掌上金牛（网易号）", "url": "https://www.163.com/dy/article/L4P0LM980514FD4Q.html" },
+        { "name": "看度新闻（成都广播电视台）", "url": "https://www.cditv.cn/show/4813-2592357.html" }
+      ],
+      "note": "8月24日13:00 大麦/纷玩岛优先购，8月25日13:00 全平台预售。",
+      "verified": true
+    },
+    {
+      "id": "shanyichun-0912",
+      "artist": "单依纯",
+      "icon": "🎧",
+      "title": "「纯妹妹2.0」巡回演唱会成都站",
+      "category": "concert",
+      "dates": ["2026-09-12", "2026-09-13"],
+      "startTime": "19:00",
+      "venueId": "wuliangye-arena",
+      "priceRange": "票价以官方公布为准",
+      "onSaleAt": null,
+      "buyPlatforms": ["大麦", "猫眼"],
+      "sources": [
+        { "name": "看度新闻（成都广播电视台）", "url": "https://www.cditv.cn/show/4813-2592357.html" },
+        { "name": "东方演出网（成都2026演唱会时间表）", "url": "https://www.df962388.com/news/427781.html" }
+      ],
+      "note": "9月12日、13日两场。",
+      "verified": true
+    },
+    {
+      "id": "wangyuan-0919",
+      "artist": "王源",
+      "icon": "🌌",
+      "title": "《宇宙超级无敌大大狂欢》巡回演唱会成都站",
+      "category": "concert",
+      "dates": ["2026-09-19", "2026-09-20"],
+      "startTime": "19:00",
+      "venueId": "donganhu-stadium",
+      "priceRange": "票价以官方公布为准",
+      "onSaleAt": null,
+      "buyPlatforms": ["大麦", "猫眼"],
+      "sources": [
+        { "name": "看度新闻（成都广播电视台）", "url": "https://www.cditv.cn/show/4813-2592357.html" }
+      ],
+      "note": "9月19日、20日两场，东安湖主体育场。",
+      "verified": true
+    },
+    {
+      "id": "wangfeng-0919",
+      "artist": "汪峰",
+      "icon": "🎸",
+      "title": "「相信未来」巡回演唱会成都站",
+      "category": "concert",
+      "dates": ["2026-09-19"],
+      "startTime": "19:00",
+      "venueId": "jinrongcheng",
+      "priceRange": "待公布",
+      "onSaleAt": null,
+      "buyPlatforms": ["大麦", "猫眼"],
+      "sources": [
+        { "name": "东方演出网（成都2026演唱会时间表）", "url": "https://www.df962388.com/news/427781.html" }
+      ],
+      "note": "来源为票务聚合平台，建议以官方开票信息为准。",
+      "verified": true
+    },
+    {
+      "id": "naying-0926",
+      "artist": "那英",
+      "icon": "🎤",
+      "title": "「我来，因为你在」巡回演唱会成都站",
+      "category": "concert",
+      "dates": ["2026-09-26"],
+      "startTime": "19:00",
+      "venueId": "wuliangye-arena",
+      "priceRange": "票价以官方公布为准",
+      "onSaleAt": null,
+      "buyPlatforms": ["大麦", "猫眼"],
+      "sources": [
+        { "name": "成都商报（川观新闻）", "url": "https://cbgc.scol.com.cn/news/7870030" },
+        { "name": "看度新闻（成都广播电视台）", "url": "https://www.cditv.cn/show/4813-2592357.html" }
+      ],
+      "note": "9月26日周六。",
+      "verified": true
+    },
+    {
+      "id": "puyuxing-0926",
+      "artist": "蒲熠星",
+      "icon": "🌠",
+      "title": "「银河系旅行攻略」巡回演唱会成都站",
+      "category": "concert",
+      "dates": ["2026-09-26"],
+      "startTime": "19:00",
+      "venueId": "donganhu-arena",
+      "priceRange": "待公布",
+      "onSaleAt": null,
+      "buyPlatforms": ["大麦", "猫眼"],
+      "sources": [
+        { "name": "东方演出网（成都2026演唱会时间表）", "url": "https://www.df962388.com/news/427781.html" }
+      ],
+      "note": "来源为票务聚合平台，建议以官方开票信息为准。",
+      "verified": true
+    },
+    {
+      "id": "huluguo-fest-0926",
+      "artist": "葫芦果音乐节",
+      "icon": "🎪",
+      "title": "2026成都葫芦果音乐节",
+      "category": "festival",
+      "dates": ["2026-09-26", "2026-09-27"],
+      "startTime": "13:00",
+      "venueId": "feiyi-boyuan",
+      "priceRange": "单日早鸟¥299 · 预售¥368起 · VIP单日¥499 · 双人¥699",
+      "onSaleAt": "2026-08-25T11:18",
+      "buyPlatforms": ["大麦", "猫眼"],
+      "sources": [
+        { "name": "掌上金牛（网易号）", "url": "https://www.163.com/dy/article/L4P0LM980514FD4Q.html" }
+      ],
+      "note": "阵容：陶喆、万能青年旅店、痛仰乐队、范晓萱、杨乃文、沙一汀、刘思鉴等。8月25日11:18开票。",
+      "verified": true
+    },
+    {
+      "id": "xuezhigian-1001",
+      "artist": "薛之谦",
+      "icon": "🐯",
+      "title": "「万兽之王」巡回演唱会成都站",
+      "category": "concert",
+      "dates": ["2026-10-01", "2026-10-02", "2026-10-03", "2026-10-06", "2026-10-07", "2026-10-10", "2026-10-11"],
+      "startTime": "19:00",
+      "venueId": "donganhu-stadium",
+      "priceRange": "票务信息待官方公布",
+      "onSaleAt": null,
+      "buyPlatforms": ["大麦", "猫眼"],
+      "sources": [
+        { "name": "文旅成都官方微博（成都市文广旅局）", "url": "https://www.sina.cn/news/detail/5334350912818635.html" },
+        { "name": "看度新闻（成都广播电视台）", "url": "https://www.cditv.cn/show/4813-2592357.html" },
+        { "name": "东方演出网", "url": "https://www.df962388.com/news/427781.html" }
+      ],
+      "note": "审批已通过。口径提示：成都市文广旅局官方发布为「10月1日—11日共8场」；艺人工作室官宣「7场连开（10.1-3 / 10.6-7 / 10.10-11）」，请以官方最终开票信息为准。",
+      "verified": true
+    },
+    {
+      "id": "lijian-1003",
+      "artist": "李健",
+      "icon": "🎼",
+      "title": "「万物安生时」巡回演唱会成都站",
+      "category": "concert",
+      "dates": ["2026-10-03", "2026-10-05"],
+      "startTime": "19:00",
+      "venueId": "wuliangye-arena",
+      "priceRange": "¥380 / 680 / 980 / 1280 / 1680 / 1880",
+      "onSaleAt": "2026-08-21T10:18",
+      "buyPlatforms": ["大麦", "票星球", "携程"],
+      "sources": [
+        { "name": "掌上金牛（网易号）", "url": "https://www.163.com/dy/article/L4P0LM980514FD4Q.html" },
+        { "name": "成都商报（川观新闻）", "url": "https://cbgc.scol.com.cn/news/7870030" },
+        { "name": "看度新闻（成都广播电视台）", "url": "https://www.cditv.cn/show/4813-2592357.html" }
+      ],
+      "note": "10月3日场次已于8月21日10:18开票；10月5日场次开票时间待跟进。",
+      "verified": true
+    },
+    {
+      "id": "wayv-1007",
+      "artist": "威神V (WayV)",
+      "icon": "🫧",
+      "title": "「天生本色」演唱会成都站",
+      "category": "concert",
+      "dates": ["2026-10-07"],
+      "startTime": "19:00",
+      "venueId": "jinrongcheng",
+      "priceRange": "票价以官方公布为准",
+      "onSaleAt": null,
+      "buyPlatforms": ["大麦", "猫眼"],
+      "sources": [
+        { "name": "看度新闻（成都广播电视台）", "url": "https://www.cditv.cn/show/4813-2592357.html" }
+      ],
+      "note": "国庆假期最后一天，金融城演艺中心。",
+      "verified": true
+    },
+    {
+      "id": "linzhixuan-1017",
+      "artist": "林志炫",
+      "icon": "🎤",
+      "title": "《ONEtake 3.0 耳顺》巡回演唱会成都站",
+      "category": "concert",
+      "dates": ["2026-10-17"],
+      "startTime": "19:00",
+      "venueId": "wuliangye-arena",
+      "priceRange": "票价以官方公布为准",
+      "onSaleAt": null,
+      "buyPlatforms": ["大麦", "猫眼"],
+      "sources": [
+        { "name": "成都商报官宣", "url": "https://static.cdsb.com/micropub/Articles/202608/24910f7b2879af875f1488af2ab88fd7.html" },
+        { "name": "东方演出网（成都2026演唱会时间表）", "url": "https://www.df962388.com/news/427781.html" }
+      ],
+      "note": "10月17日周六，五粮液文化体育中心综合馆。",
+      "verified": true
+    }
+  ]
+}
