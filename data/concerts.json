@@ -139,13 +139,13 @@
       "dates": ["2026-09-05", "2026-09-06"],
       "startTime": "19:00",
       "venueId": "donganhu-stadium",
-      "priceRange": "票价以官方公布为准",
+      "priceRange": "¥380-1080",
       "onSaleAt": null,
-      "buyPlatforms": ["大麦", "猫眼"],
+      "buyPlatforms": ["大麦", "猫眼", "纷玩岛"],
       "sources": [
         { "name": "看度新闻（成都广播电视台）", "url": "https://www.cditv.cn/show/4813-2592357.html" }
       ],
-      "note": "9月5日、6日两场，东安湖主体育场。",
+      "note": "9月5日、6日两场，东安湖主体育场；9月6日加场已于8月9日13:00开售。",
       "verified": true
     },
     {
@@ -176,7 +176,7 @@
       "dates": ["2026-09-12", "2026-09-13"],
       "startTime": "19:00",
       "venueId": "wuliangye-arena",
-      "priceRange": "票价以官方公布为准",
+      "priceRange": "¥380-1880",
       "onSaleAt": null,
       "buyPlatforms": ["大麦", "猫眼"],
       "sources": [
@@ -344,14 +344,52 @@
       "dates": ["2026-10-17"],
       "startTime": "19:00",
       "venueId": "wuliangye-arena",
-      "priceRange": "票价以官方公布为准",
+      "priceRange": "¥380-980",
       "onSaleAt": null,
-      "buyPlatforms": ["大麦", "猫眼"],
+      "buyPlatforms": ["大麦"],
       "sources": [
         { "name": "成都商报官宣", "url": "https://static.cdsb.com/micropub/Articles/202608/24910f7b2879af875f1488af2ab88fd7.html" },
         { "name": "东方演出网（成都2026演唱会时间表）", "url": "https://www.df962388.com/news/427781.html" }
       ],
       "note": "10月17日周六，五粮液文化体育中心综合馆。",
+      "verified": true
+    },
+    {
+      "id": "guangliang-0808",
+      "artist": "光良",
+      "icon": "🎤",
+      "title": "「不会分离·今晚我不孤独3.0⁺」巡回演唱会成都站",
+      "category": "concert",
+      "dates": ["2026-08-08"],
+      "startTime": "19:00",
+      "venueId": "jinrongcheng",
+      "priceRange": "¥388-1717",
+      "onSaleAt": null,
+      "buyPlatforms": ["大麦", "猫眼"],
+      "sources": [
+        { "name": "掌上金牛（网易号）·审批通过5场定档", "url": "https://www.163.com/dy/article/L3I4NDHM0514FD4Q.html" },
+        { "name": "成都市文广旅局审批公示", "url": "https://cdwglj.chengdu.gov.cn/cdwglj/c138816/2026-06/05/content_af2b3ce0c59f49ce959b1d867b6720d9.shtml" }
+      ],
+      "note": "已结束（8月8日举办，金融城演艺中心）。",
+      "verified": true
+    },
+    {
+      "id": "rensuxi-0815",
+      "artist": "任素汐",
+      "icon": "🎭",
+      "title": "「小歌儿们的Live」成都站",
+      "category": "concert",
+      "dates": ["2026-08-15"],
+      "startTime": "19:30",
+      "venueId": "wuliangye-arena",
+      "priceRange": "¥380-1280",
+      "onSaleAt": null,
+      "buyPlatforms": ["大麦", "猫眼"],
+      "sources": [
+        { "name": "掌上金牛（网易号）·审批通过5场定档", "url": "https://www.163.com/dy/article/L3I4NDHM0514FD4Q.html" },
+        { "name": "成都发布（澎湃号）", "url": "https://thirdpage.thepaper.cn/h5/jrtt/33784541" }
+      ],
+      "note": "已结束（8月15日举办，五粮液文化体育中心综合体育馆）。",
       "verified": true
     }
   ]
