@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22",
+  "updatedAt": "2026-08-24",
   "siteName": "成都演唱会工作台",
   "method": "本工作台所有演出、场馆数据均于生成时逐条联网核实（宁缺毋假）。核验证据优先级：① 成都市文广旅局官网「营业性演出准予许可」公示；② 大麦 / 猫眼 / 秀动等票务平台官方页面；③ 成都官方媒体（成都广播电视台看度新闻、成都商报、成都发布等）。",
   "sources": [
@@ -13,7 +13,6 @@
   ],
   "pending": [
     { "name": "付辛博「辛生万物」巡回演唱会成都站", "info": "成都市文广旅局审批公示（2026-06-05），具体日期/场馆待官方公布", "sourceUrl": "https://cdwglj.chengdu.gov.cn/cdwglj/c138816/2026-06/05/content_1c3b46a0bfb343e5864118e8699cf0e5.shtml" },
-    { "name": "光良「不会分离·今晚我不孤独3.0」成都站", "info": "成都市文广旅局审批公示（2026-06-05），具体日期/场馆待官方公布", "sourceUrl": "https://cdwglj.chengdu.gov.cn/cdwglj/c138816/2026-06/05/content_af2b3ce0c59f49ce959b1d867b6720d9.shtml" },
     { "name": "任贤齐、回春丹、朱正廷等成都站", "info": "看度新闻提及「又一波演唱会来了」，具体场次待官宣", "sourceUrl": "https://www.cditv.cn/show/4813-2521121.html" },
     { "name": "RAiNBOW计划「现在很想见你」成都站", "info": "秀动在售（麓湖水上剧场），演出日期待核实", "sourceUrl": "https://wap.showstart.com/pages/activity/detail/detail?activityId=299647" },
     { "name": "威仔&格子兮「文艺复兴·重回非主流时代」成都站", "info": "演出票务网站可见，官方信息待核实", "sourceUrl": "https://www.yanchupiaowu.com/t_116357/" },
