@@ -149,7 +149,7 @@ function renderCalendar() {
     (days[d] = days[d] || []).push(c);
   }));
   const sorted = Object.keys(days).sort();
-  let html = '<div class="page-head"><h1>📅 演出日历</h1><div class="page-sub">已官宣演出按日期排列 · 今日高亮（数据更新至 ' + DATA.site.updatedAt + '）</div></div>';
+  let html = '<div class="page-head"><h1>📅 演出日历</h1><div class="page-sub">已官宣演出按日期排列 · 今日高亮 · 今天 ' + prettyFull(today) + '（数据核实于 ' + DATA.site.updatedAt + '）</div></div>';
   let curMonth = '';
   sorted.forEach((d) => {
     const m = d.slice(0, 7);
