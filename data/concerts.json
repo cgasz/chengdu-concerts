@@ -195,13 +195,14 @@
       "dates": ["2026-09-19", "2026-09-20"],
       "startTime": "19:00",
       "venueId": "donganhu-stadium",
-      "priceRange": "票价以官方公布为准",
-      "onSaleAt": null,
+      "priceRange": "¥380-1680",
+      "onSaleAt": "2026-08-30T17:30",
       "buyPlatforms": ["大麦", "猫眼"],
       "sources": [
-        { "name": "看度新闻（成都广播电视台）", "url": "https://www.cditv.cn/show/4813-2592357.html" }
+        { "name": "看度新闻（成都广播电视台）", "url": "https://www.cditv.cn/show/4813-2592357.html" },
+        { "name": "桔子密码（票务资讯）", "url": "http://huanghepiao.com/article/1787658872161689.html" }
       ],
-      "note": "9月19日、20日两场，东安湖主体育场。",
+      "note": "9月19日场次8月30日17:30开票、9月20日场次8月30日18:30开票；场馆：龙泉驿区体育公园路16号。",
       "verified": true
     },
     {
@@ -231,14 +232,14 @@
       "dates": ["2026-09-26"],
       "startTime": "19:00",
       "venueId": "wuliangye-arena",
-      "priceRange": "票价以官方公布为准",
+      "priceRange": "¥380-1380（无内场平地）",
       "onSaleAt": null,
       "buyPlatforms": ["大麦", "猫眼"],
       "sources": [
         { "name": "成都商报（川观新闻）", "url": "https://cbgc.scol.com.cn/news/7870030" },
         { "name": "看度新闻（成都广播电视台）", "url": "https://www.cditv.cn/show/4813-2592357.html" }
       ],
-      "note": "9月26日周六。",
+      "note": "9月26日周六；预售已公布（2026-2027巡演成都站），具体开票时间以官方为准。",
       "verified": true
     },
     {
@@ -286,15 +287,15 @@
       "dates": ["2026-10-01", "2026-10-02", "2026-10-03", "2026-10-06", "2026-10-07", "2026-10-10", "2026-10-11"],
       "startTime": "19:00",
       "venueId": "donganhu-stadium",
-      "priceRange": "票务信息待官方公布",
+      "priceRange": "¥317-1717（看台317-917 / 内场1317-1717）",
       "onSaleAt": null,
       "buyPlatforms": ["大麦", "猫眼"],
       "sources": [
         { "name": "文旅成都官方微博（成都市文广旅局）", "url": "https://www.sina.cn/news/detail/5334350912818635.html" },
         { "name": "看度新闻（成都广播电视台）", "url": "https://www.cditv.cn/show/4813-2592357.html" },
-        { "name": "东方演出网", "url": "https://www.df962388.com/news/427781.html" }
+        { "name": "澎湃新闻·政务号（8/25）", "url": "https://www.thepaper.cn/newsDetail_forward_33848984" }
       ],
-      "note": "审批已通过。口径提示：成都市文广旅局官方发布为「10月1日—11日共8场」；艺人工作室官宣「7场连开（10.1-3 / 10.6-7 / 10.10-11）」，请以官方最终开票信息为准。",
+      "note": "票价已公布（317-1717元），开票时间未官宣。口径提示：文旅成都官方8/21发布为「10月1日—11日共8场」；8/25成都官方政务号与艺人工作室口径为「10.1-3、10.6-7、10.10-11 共7场」，以官方最终开票为准。票务平台目前仅开放「想看」预约，谨防代抢/锁票骗局。",
       "verified": true
     },
     {
@@ -390,6 +391,25 @@
         { "name": "成都发布（澎湃号）", "url": "https://thirdpage.thepaper.cn/h5/jrtt/33784541" }
       ],
       "note": "已结束（8月15日举办，五粮液文化体育中心综合体育馆）。",
+      "verified": true
+    },
+    {
+      "id": "xusong-1023",
+      "artist": "许嵩",
+      "icon": "🌙",
+      "title": "「安泊猜想」巡回演唱会成都站",
+      "category": "concert",
+      "dates": ["2026-10-23", "2026-10-24", "2026-10-25"],
+      "startTime": "19:00",
+      "venueId": "donganhu-stadium",
+      "priceRange": "票价以官方公布为准",
+      "onSaleAt": null,
+      "buyPlatforms": ["大麦", "猫眼"],
+      "sources": [
+        { "name": "澎湃新闻·政务号（8/25官宣）", "url": "https://www.thepaper.cn/newsDetail_forward_33848984" },
+        { "name": "中国网娱乐", "url": "https://ent.china.com/movie/newszh/11005281/20260826/49699245.html" }
+      ],
+      "note": "审批通过（有效期10月23-25日），10月唱响东安湖体育公园；具体场馆/场次/票价以官方公布为准。",
       "verified": true
     }
   ]
